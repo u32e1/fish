@@ -1,0 +1,33 @@
+{
+	"name": "@u32e1/fish",
+	"version": "0.1.0",
+	"description": "Simple AES-128 encryption library",
+	"keywords": [
+		"aes",
+		"encryption",
+		"decryption"
+	],
+	"main": "src/index.js",
+	"scripts": {
+		"build": "tsc",
+		"test": "npm run build && vitest run"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/u32e1/fish.git"
+	},
+	"author": "u32e1",
+	"license": "GPLv3",
+	"bugs": {
+		"url": "https://github.com/u32e1/fish/issues"
+	},
+	"homepage": "https://github.com/u32e1/fish#readme",
+	"dependencies": {
+		"aes-js": "3.1.2"
+	},
+	"devDependencies": {
+		"@types/aes-js": "^3.1.1",
+		"typescript": "^4.7.4",
+		"vitest": "^0.17.0"
+	}
+}
